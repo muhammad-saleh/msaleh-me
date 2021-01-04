@@ -13,7 +13,9 @@ const Layout = ({ children, data }) => (
         { name: 'description', content: 'Sample' },
         { name: 'keywords', content: 'sample, something' },
       ]}
-    />
+    >
+    <script src="https://www.googleoptimize.com/optimize.js?id=OPT-WXTVCC5"></script>
+  </Helmet>
     <Header siteTitle={data.site.siteMetadata.title} />
     <div
       style={{
